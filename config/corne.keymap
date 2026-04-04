@@ -132,29 +132,6 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    macros {
-        macro_copy: copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LC(C)>;
-            label = "COPY";
-        };
-
-        macro_paste: macro_paste {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LC(V)>;
-            label = "MACRO_PASTE";
-        };
-
-        macro_cut: macro_cut {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LC(X)>;
-            label = "MACRO_CUT";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
