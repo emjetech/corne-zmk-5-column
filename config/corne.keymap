@@ -41,7 +41,7 @@
 
         combo_tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <13 14>;
         };
 
         combo_shift {
