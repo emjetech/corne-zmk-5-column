@@ -128,21 +128,6 @@
             bindings = <&mo 3>;
             key-positions = <36 37>;
         };
-
-        combo_copy {
-            bindings = <&macro_copy>;
-            key-positions = <15 27>;
-        };
-
-        combo_paste {
-            bindings = <&macro_paste>;
-            key-positions = <16 28>;
-        };
-
-        combo_cut {
-            bindings = <&macro_cut>;
-            key-positions = <26 14>;
-        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
