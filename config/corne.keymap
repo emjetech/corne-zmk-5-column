@@ -130,7 +130,7 @@
         };
 
         combo_copy {
-            bindings = <&copy>;
+            bindings = <&macro_copy>;
             key-positions = <15 27>;
         };
 
@@ -148,7 +148,7 @@
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     macros {
-        copy: copy {
+        macro_copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kt LC(C)>;
